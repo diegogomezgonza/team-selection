@@ -2,9 +2,10 @@ import React from 'react';
 
 function App() {
   return (
-    <div className="container text-center">
-      <div className="mb-4 shadow-container">
-        <h1 className="display-4">SEND YOUR TEAM</h1>
+    <div className='justify-content-center d-flex align-items-center'>
+      <div className="container text-center justify-content-center align-items-center">
+      <div className="mb-4 shadow-container justify-content-center align-items-center">
+        <h1 className="display-4 justify-content-center align-items-center">SEND YOUR TEAM</h1>
         <form>
           <div className="p-3 bg-white rounded">
             <div className="form-group">
@@ -23,7 +24,7 @@ function App() {
               <label htmlFor="tiempoTrabajado">Tiempo trabajado en la empresa:</label>
               <input type="text" className="form-control" id="tiempoTrabajado" placeholder="Introduce el tiempo trabajado en la empresa" />
             </div>
-            <button type="submit" className="btn btn-primary btn-block">Enviar</button>
+            <button type="submit" className="btn btn-primary btn-block mt-1">Enviar</button>
           </div>
         </form>
       </div>
@@ -58,11 +59,13 @@ function App() {
           </ul>
         </div>
         <div className="text-center mt-4">
-          <button type="button" className="btn btn-success mr-2">Admitir</button>
+          <button type="button" className="btn btn-success mr-2 mx-2">Admitir</button>
           <button type="button" className="btn btn-danger">Denegar</button>
         </div>
       </div>
     </div>
+    </div>
+    
   );
 }
 
